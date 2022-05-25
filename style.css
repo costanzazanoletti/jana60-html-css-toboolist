@@ -20,6 +20,10 @@ body {
 h3 {
   margin-bottom: 10px;
 }
+ul {
+  list-style: none;
+}
+
 /* components */
 .btn {
   text-decoration: none;
@@ -41,7 +45,27 @@ h3 {
 header {
   background-color: white;
   padding: 15px 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
+.brand {
+  display: flex;
+  align-items: center;
+}
+.menu {
+  display: flex;
+  justify-content: space-between;
+  width: 30%;
+}
+ul.menu li a {
+  text-decoration: none;
+  color: #14aaf5;
+}
+ul.menu li a:hover {
+  text-decoration: underline;
+}
+
 /* contenuto principale */
 .top {
   padding: 10px 30px;
@@ -58,9 +82,6 @@ header {
 }
 
 /* lista */
-ul {
-  list-style: none;
-}
 
 .main-list > li {
   padding-top: 20px;
